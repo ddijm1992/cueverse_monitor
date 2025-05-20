@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cueverse Monitor – Powered by Cueverse</title>
+  <meta name="description" content="This node streams system-wide AI health, loop status, and campaign forecast overlays from the Cueverse Empire Core." />
+  <meta property="og:title" content="Cueverse Monitor – Powered by Cueverse" />
+  <meta property="og:description" content="This node streams system-wide AI health, loop status, and campaign forecast overlays from the Cueverse Empire Core." />
+  <meta property="og:image" content="https://cueverse.org/og-image.jpg" />
+  <meta property="og:url" content="https://cueverse.monitor" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="/favicon.ico" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-white font-sans antialiased">
+  <header class="bg-slate-900 border-b border-slate-800 px-6 py-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold text-green-400">Cueverse Monitor</h1>
+    <nav class="space-x-4 text-sm">
+      <a href="#about" class="hover:text-green-300">About</a>
+      <a href="#ai" class="hover:text-green-300">Live AI</a>
+      <a href="#contact" class="hover:text-green-300">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="text-center py-20 px-6">
+      <h2 class="text-4xl font-bold mb-4">Live AI status across the empire.</h2>
+      <p class="text-lg max-w-2xl mx-auto text-slate-400">This node streams system-wide AI health, loop status, and campaign forecast overlays from the Cueverse Empire Core.</p>
+    </section>
+
+    <section id="ai" class="py-16 px-6">
+      <h2 class="text-2xl font-bold mb-6 text-center">📊 Live AI Sync</h2>
+      <div id="ai-feed" class="max-w-2xl mx-auto"></div>
+      <script src="https://cueverse-monitor.vercel.app/loop_feed.js"></script>
+    </section>
+
+    <section id="contact" class="bg-slate-900 py-16 px-6">
+      <h2 class="text-2xl font-bold mb-4 text-center">Contact Us</h2>
+      <form action="https://formspree.io/f/xgebvljk" method="POST" class="max-w-lg mx-auto space-y-4">
+        <input type="email" name="email" placeholder="Your email" required class="w-full p-3 rounded bg-slate-800 text-white border border-slate-700" />
+        <textarea name="message" placeholder="Your message" required class="w-full p-3 rounded bg-slate-800 text-white border border-slate-700 h-32"></textarea>
+        <button type="submit" class="bg-green-400 text-slate-950 font-semibold py-2 px-4 rounded hover:bg-green-300">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="bg-black py-6 text-center text-sm text-slate-500">
+    © 2025 Cueverse Monitor | A Cueverse Brand
+  </footer>
+</body>
+</html>
