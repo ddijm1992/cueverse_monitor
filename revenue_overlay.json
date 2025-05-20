@@ -1,0 +1,35 @@
+{
+  "last_updated": "2025-05-20T22:53:36.125511",
+  "streams": [
+    {
+      "brand": "CueRide",
+      "monthly": 12000,
+      "target": 25000
+    },
+    {
+      "brand": "CueRide Cares",
+      "monthly": 0,
+      "target": 100000
+    },
+    {
+      "brand": "Off The Rails",
+      "monthly": 8000,
+      "target": 40000
+    },
+    {
+      "brand": "Cuelytics",
+      "monthly": 7000,
+      "target": 30000
+    },
+    {
+      "brand": "QSN",
+      "monthly": 3000,
+      "target": 20000
+    },
+    {
+      "brand": "Cueverse",
+      "monthly": 0,
+      "target": 500000
+    }
+  ]
+}
