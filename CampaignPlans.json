@@ -1,0 +1,63 @@
+{
+  "CueRide": [
+    {
+      "campaign": "Driver Recruitment Spring 2025",
+      "target": "local APA/BCA league players",
+      "goal": "add 150 drivers in 6 cities",
+      "status": "active",
+      "schedule": "daily"
+    },
+    {
+      "campaign": "Venue Sponsor Outreach",
+      "target": "pool halls, recovery venues",
+      "goal": "secure 10 paid sponsorships",
+      "status": "draft",
+      "schedule": "weekly"
+    }
+  ],
+  "CueRide Cares": [
+    {
+      "campaign": "Youth Access Grant Round Q2",
+      "target": "city, county nonprofit funding agencies",
+      "goal": "submit 12 applications",
+      "status": "planning",
+      "schedule": "weekly"
+    }
+  ],
+  "Off The Rails": [
+    {
+      "campaign": "Pre-Seed Investor Deck",
+      "target": "angel investors, betting partners",
+      "goal": "raise $500K",
+      "status": "in design",
+      "schedule": "on_startup"
+    }
+  ],
+  "Cuelytics": [
+    {
+      "campaign": "API Partner Outreach",
+      "target": "sports dev firms, stat marketplaces",
+      "goal": "onboard 3 integration partners",
+      "status": "queued",
+      "schedule": "daily"
+    }
+  ],
+  "QSN": [
+    {
+      "campaign": "Stream Partner Pilot",
+      "target": "streamers, influencers, leagues",
+      "goal": "launch 1 affiliate series",
+      "status": "ready",
+      "schedule": "weekly"
+    }
+  ],
+  "Cueverse": [
+    {
+      "campaign": "Empire Roundtable Invite",
+      "target": "advisors, strategic operators",
+      "goal": "build board-level leadership",
+      "status": "planned",
+      "schedule": "monthly"
+    }
+  ]
+}
